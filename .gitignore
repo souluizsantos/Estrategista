@@ -1,0 +1,30 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependências (se usar no futuro)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build / Cache (se usar no futuro)
+dist/
+build/
+.cache/
+
+# Outros
+*.tmp
+*.bak
+
