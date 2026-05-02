@@ -1286,7 +1286,7 @@ h2 em::after {
 .method-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
+  gap: 2px;
   background: var(--border);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -1295,7 +1295,7 @@ h2 em::after {
 }
 
 .method-item {
-  background: var(--surface-white);
+  background: var(--surface-white); /* Fallback for browsers that don't support backdrop-filter */
   padding: 32px 24px;
   transition: all var(--transition-base);
   position: relative;
